@@ -1,0 +1,151 @@
+<!DOCTYPE php>
+<php lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PCMart - Cart</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.php">PCMart</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.php">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.php">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cart</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Cart Items -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="mb-0">Cart Items</h4>
+              </div>
+              <div class="card-body">
+                <!-- Cart Item -->
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="/img/products/f1.jpg" class="img-fluid">
+                  </div>
+                  <div class="col-md-8">
+                    <h5 class="mb-0">Asus Zen 2</h5>
+                    <p class="text-muted">Unleash the power of Zen with the Asus Zen 2.
+                      Experience the next level of performance with the hero Asus Zen 2.</p>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label>Quantity:</label>
+                          <input type="number" class="form-control" value="1">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label>Price:</label>
+                          <p class="text-success mb-0">Rs. 170000</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <button class="btn btn-danger btn-block">Remove</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Cart Item -->
+                <!-- Cart Item -->
+                <div class="row mt-4">
+                  <div class="col
+            </div>
+            <!-- End Cart Item -->
+          </div>
+        </div>
+      </div>
+      <div class=" col-lg-4">
+                    <div class="card">
+                      <div class="card-header">
+                        <h4 class="mb-0">Order Summary</h4>
+                      </div>
+                      <div class="card-body">
+                        <p class="text-muted">You have 1 item in your cart</p>
+                        <div class="table-responsive">
+                          <table class="table">
+                            <tbody>
+                              <tr>
+                                <td>Subtotal</td>
+                                <td class="text-right">Rs. 170000</td>
+                              </tr>
+                              <tr>
+                                <td>Shipping</td>
+                                <td class="text-right">Rs. 0.00</td>
+                              </tr>
+                              <tr>
+                                <td>Taxes</td>
+                                <td class="text-right">Rs. 1500.00</td>
+                              </tr>
+                              <tr>
+                                <td>Total</td>
+                                <td class="text-right font-weight-bold">Rs. 171500</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <a href="#" class="btn btn-primary btn-block">Proceed to Checkout</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="mb-0">&copy; 2023 PCMart. All rights reserved.</p>
+          </div>
+          <div class="col-md-6">
+            <p class="mb-0 text-right">Follow us on <i class="fab fa-twitter"></i> <i class="fab fa-facebook"></i> <i
+                class="fab fa-instagram"></i></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+
+  </html>

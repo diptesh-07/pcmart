@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/solid.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Pcmart - Get Your Dream Pc</title>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <section id="header">
+        <a href="index.php"><img id="Logo" src="img/logo.png" alt="Reload"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="blog.php">Blog</a></li>
+                <li><a class="active" href="about.php">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li id="lg-bag"><a href="cart.php"><i class="fa-solid fa-cart-shopping cart"></i></a></li>
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+            </ul>
+
+        </div>
+
+        <div id="mobile">
+            <a href="cart.php"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">About PcMart</h1>
+            <p class="lead">At PcMart, we are committed to providing our customers with the best computer hardware and
+                software products, as well as exceptional customer service and support.
+                <br>
+                At PcMart, your one-stop destination for all your computer hardware and software needs. We are a
+                team of computer enthusiasts who are passionate about technology and committed to providing our
+                customers with the best products and services.
+                <br><br>
+                At PcMart, we offer a wide range of computer products, including desktops, laptops, peripherals, and
+                accessories from top brands like Dell, HP, Lenovo, Asus, Acer, and more. We also offer a variety of
+                software solutions, including operating systems, productivity software, and security software to keep
+                your computer safe and secure.
+
+                Our team is made up of knowledgeable and experienced professionals who are always ready to help you find
+                the right product for your needs. We pride ourselves on offering exceptional customer service and
+                support, whether you need help with installation, troubleshooting, or just have a question about a
+                product.
+
+                We also believe in offering competitive prices and regular promotions to ensure that you get the best
+                value for your money. We offer secure online ordering and fast, reliable shipping to make sure you
+                receive your order as quickly as possible.
+                <br><br>
+                At PcMart, we are committed to providing our customers with an exceptional shopping experience. Whether
+                you're a seasoned computer expert or just starting out, we are here to help you find the products and
+                solutions you need to make the most of your technology. Thank you for choosing PCMART, and we look
+                forward to serving you!
+            </p>
+            <hr>
+            <p class="mb-0">At PcMart, we believe that technology should be accessible to everyone, and we are committed
+                to helping our customers make the most of it. Shop with us today and experience the difference that our
+                passion for technology and dedication to customer service can make!.</p>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Our Products</h2>
+                <p>At PcMart, we offer a wide range of computer products, including desktops, laptops, peripherals, and
+                    accessories from top brands like Dell, HP, Lenovo, Asus, Acer, and more. We also offer a variety of
+                    software solutions, including operating systems, productivity software, and security software to
+                    keep your computer safe and secure.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <h2>Our Services</h2>
+                <p>Our team is made up of knowledgeable and experienced professionals who are passionate about
+                    technology and helping our customers. From our sales team to our technical support specialists,
+                    everyone at PcMart is dedicated to providing the highest level of service and support. We work
+                    together to ensure that our customers have access to the latest and most innovative technology
+                    products on the market.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <h2>Our Team</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-4 mx-5">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Diptesh</h5>
+                        <p class="card-text">Founder & CEO</p>
+                        <a href="#" class="btn btn-primary"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="btn btn-primary"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="btn btn-primary"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mx-5">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Sachin</h5>
+                        <p class="card-text">Co-Founder & Partnar</p>
+                        <a href="#" class="btn btn-primary"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="btn btn-primary"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="btn btn-primary"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Footer -->
+    <footer class="section-p1" style="margin-top: 20px;">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> add</p>
+            <p><strong>Phone:</strong> 91 999999999</p>
+            <p><strong>Hours::</strong> 10:00 -18:00, mon - sat</p>
+            <div class="follow">
+                <h4>Follow</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">view Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From app Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>© 2023 PcMart. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.3/dist/umd/popper.min.js"
+        integrity="sha384-qWvcx2Ls0Yiak0ZfVj16u8p/T0V7HLznzF9C9y/sGxGGnATjKszMwBsBhcESZmW/"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-sN5JoFk/gzLX+s8Amd+Pg1rkCCw34bhWrJZB/POMZBc0NLSD2RbRkGX5i5r1FdIy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

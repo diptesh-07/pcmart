@@ -1,0 +1,388 @@
+<!DOCTYPE php>
+<php lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/solid.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>PCMART Blog</title>
+</head>
+
+<body>
+    <section id="header">
+        <a href="index.php"><img id="Logo" src="img/logo.png" alt="Reload"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.php">Home</a></li>
+                <li><a class="active" href="blog.php">Blog</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li id="lg-bag"><a href="cart.php"><i class="fa-solid fa-cart-shopping cart"></i></a></li>
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+            </ul>
+
+        </div>
+        <div id="mobile">
+            <a href="cart.php"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <!-- Page Content -->
+
+    <body>
+
+        <div class="container">
+            <header class="blog-header py-3">
+                <div class="row flex-nowrap justify-content-between align-items-center">
+                    <div class="col-4 pt-1">
+                        <a class="text-muted" href="#">Subscribe</a>
+                    </div>
+                    <div class="col-4 text-center">
+                        <a class="blog-header-logo text-dark" href="#"
+                            style="font-size: 30px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: 700;">Pcmart</a>
+                    </div>
+                    <div class="col-4 d-flex justify-content-end align-items-center">
+                        <a class="text-muted" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="mx-3">
+                                <circle cx="10.5" cy="10.5" r="7.5"></circle>
+                                <line x1="21" y1="21" x2="15.8" y2="15.8"></line>
+                            </svg>
+                        </a>
+                        <a class="btn btn-sm btn-outline-secondary" href="#" style="width: auto;">Sign up</a>
+                    </div>
+                </div>
+            </header>
+
+            <div class="nav-scroller py-1 mb-2">
+                <nav class="nav d-flex justify-content-between">
+                    <a class="p-2 text-muted navelement" href="#">World</a>
+                    <a class="p-2 text-muted navelement" href="#">U.S.</a>
+                    <a class="p-2 text-muted navelement" href="#">Technology</a>
+                    <a class="p-2 text-muted navelement" href="#">Design</a>
+                    <a class="p-2 text-muted navelement" href="#">Culture</a>
+                    <a class="p-2 text-muted navelement" href="#">Business</a>
+                    <a class="p-2 text-muted navelement" href="#">Politics</a>
+                    <a class="p-2 text-muted navelement" href="#">Opinion</a>
+                    <a class="p-2 text-muted navelement" href="#">Science</a>
+                    <a class="p-2 text-muted navelement" href="#">Health</a>
+                    <a class="p-2 text-muted navelement" href="#">Style</a>
+                    <a class="p-2 text-muted navelement" href="#">Travel</a>
+                </nav>
+            </div>
+
+            <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark" style="background-image: url(img/b1.png);
+                background-repeat: no-repeat ">
+                <div class="col-md-6 px-0">
+                    <h1 style="color: white;" class="display-4 font-italic">How to Build a Custom PC for Gaming</h1>
+                    <p style="color: white;" class="lead my-3">Building
+                        your own PC can be a fun and rewarding
+                        experience, but it can also be intimidating if you're not familiar with the process. In this
+                        post, we'll walk you through the steps to build a custom PC for gaming.</p>
+                    <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+                </div>
+            </div>
+
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 text-primary">World</strong>
+                            <h3 class="mb-0">
+                                <a class="text-dark" href="#">Quantam mashine</a>
+                            </h3>
+                            <div class="mb-1 text-muted">Nov 12</div>
+                            <p class="card-text mb-auto">Quantum computing is a rapidly-emerging technology that</p>
+                            <a href="#">Continue reading</a>
+                        </div>
+                        <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb"
+                            alt="Thumbnail [200x250]" style="width: 200px; height: 250px;" src="img/qc.png"
+                            data-holder-rendered="true">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 text-success">Design</strong>
+                            <h3 class="mb-0">
+                                <a class="text-dark" href="#">Photoshop</a>
+                            </h3>
+                            <div class="mb-1 text-muted">Nov 11</div>
+                            <p class="card-text mb-auto">Photoshop is a powerful image editing software with a variety
+                                of tools and features that can be used</p>
+                            <a href="#">Continue reading</a>
+                        </div>
+                        <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb"
+                            alt="Thumbnail [200x250]" src="/img/ps.png" data-holder-rendered="true"
+                            style="width: 200px; height: 250px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <main role="main" class="container">
+            <div class="row">
+                <div class="col-md-8 blog-main">
+                    <h3 class="pb-3 mb-4 font-italic border-bottom">
+                        From the Firehose
+                    </h3>
+
+                    <div class="blog-post">
+                        <h2 class="blog-post-title">How to Build a Custom PC for Gaming</h2>
+                        <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
+
+                        <p>Are you a gamer looking to build a custom PC? Building your own PC can be a fun and rewarding
+                            experience, but it can also be intimidating if you're not familiar with the process. In this
+                            post, we'll walk you through the steps to build a custom PC for gaming.</p>
+                        <hr>
+                        <p>First, you'll need to choose your. <a href="#">components</a>, The most important components
+                            for a gaming PC are the CPU, GPU, and RAM. You'll also need a motherboard, power supply,
+                            storage, and a case.</p>
+                        <blockquote>
+                            <p>Next, you'll need to assemble your components.<strong>This can be a bit tricky, </strong>
+                                but there are plenty of tutorials available online to help you. </p>
+                        </blockquote>
+                        <p>PCMart <em>help you to choose your components. </em> Once you've assembled your PC, you'll
+                            need to
+                            install the operating system and drivers.</p>
+                        <h2>How to Build Your Own Gaming PC</h2>
+                        <p>Are you ready to take your gaming experience to the next level? Building your own gaming PC
+                            can be a fun and rewarding experience. Follow these steps to create your dream machine:</p>
+                        <h3>Step 1: Choose Your Components</h3>
+                        <p>The first step in building your gaming PC is choosing your components. You'll need a CPU,
+                            motherboard, graphics card, RAM, storage, power supply, and case. Take the time to research
+                            each component and choose the best option for your budget and gaming needs.</p>
+                        <pre><code>Example code block
+                            //CPU: Intel Core i7-11700K
+                            //Motherboard: ASUS ROG Strix Z590-E
+                            //Graphics Card: NVIDIA GeForce RTX 3080
+                            //RAM: Corsair Vengeance RGB Pro 32GB (2 x 16GB)
+                            //Storage: Samsung 970 EVO Plus 1TB NVMe SSD
+                            //Power Supply: EVGA SuperNOVA 850W G5
+                            //Case: Lian Li PC-O11 Dynamic XL</code></pre>
+                        <h3>Step 2: Assemble Your PC</h3>
+                        <p>Now it's time to put everything together. Follow the instructions that came with your
+                            components to assemble your PC. Make sure to ground yourself and handle the components with
+                            care to avoid static electricity damage.</p>
+                        <ul>
+                            <li>Install the CPU onto the motherboard.</li>
+                            <li>Insert the RAM into the motherboard.</li>
+                            <li>Install the graphics card into the PCIe slot.</li>
+                            <li>Install the storage devices into the appropriate slots.</li>
+                            <li>Mount the power supply and connect all the cables.</li>
+                            <li>Mount the motherboard into the case and connect all the necessary cables.</li>
+                        </ul>
+                        <h3>Step 3: Install Your Operating System and Drivers</h3>
+                        <p>Once your PC is assembled, it's time to install your operating system and drivers. Insert
+                            your Windows or Linux installation media and follow the prompts to install the OS. Then,
+                            download the latest drivers for your components and install them.</p>
+                        <ol>
+                            <li>Insert the Windows or Linux installation media.</li>
+                            <li>Follow the prompts to install the operating system.</li>
+                            <li>Download and install the latest drivers for your components.</li>
+                        </ol>
+                        <h3>Step 4: Install Your Games and Enjoy!</h3>
+                        <p>Now that your gaming PC is complete, it's time to install your favorite games and enjoy your
+                            new machine!</p>
+                        <p>Building your own gaming PC can be a fun and rewarding experience. Take the time to research
+                            your components and follow these steps to create your dream machine. Happy gaming!</p>
+                    </div><!-- /.blog-post -->
+
+                    <div class="blog-post">
+                        <h2 class="blog-post-title">The Benefits of Using a Solid State Drive (SSD) in Your PC</h2>
+                        <p class="blog-post-meta">April 23, 2023 by <a href="#">PCMart</a></p>
+                        <p>If you're looking for ways to speed up your PC, you may want to consider upgrading to a solid
+                            state drive (SSD). Unlike traditional hard disk drives (HDDs), SSDs have no moving parts and
+                            use flash memory to store data. This means that they can access data much faster than HDDs,
+                            resulting in faster boot times, faster file transfers, and faster program launches.</p>
+                        <p>But speed isn't the only benefit of using an SSD in your PC. SSDs are also more reliable than
+                            HDDs, since they are less prone to physical damage and can withstand more shock and
+                            vibration. They also consume less power than HDDs, which can help extend the battery life of
+                            laptops and other mobile devices.</p>
+                        <p>One potential downside of SSDs is their higher cost compared to HDDs, but prices have been
+                            coming down in recent years. Additionally, many users find that the improved speed and
+                            reliability of SSDs is well worth the investment.</p>
+                        <p>Overall, if you're looking to improve the performance and reliability of your PC, upgrading
+                            to an SSD is a smart choice. Not only will you enjoy faster speeds and improved durability,
+                            but you'll also experience the peace of mind that comes with knowing that your data is safe
+                            and secure.</p>
+
+
+
+
+                    </div><!-- /.blog-post -->
+
+                    <div class="blog-post">
+                        <h2 class="blog-post-title">Top 10 Laptops for 2023</h2>
+                        <p class="blog-post-meta">April 23, 2023 by <a href="#">PCMART</a></p>
+
+                        <p>Are you in the market for a new laptop? Look no further! PCMART has compiled a list of the
+                            top 10 laptops for
+                            2023. Whether you're a gamer, a student, or a professional, there's a laptop on this list
+                            for you.</p>
+
+                        <h3>1. Dell XPS 13</h3>
+                        <p>The Dell XPS 13 is a sleek and powerful laptop that's perfect for professionals on the go. It
+                            features a
+                            stunning 13-inch display, a fast processor, and plenty of storage space.</p>
+
+                        <h3>2. ASUS ROG Zephyrus G14</h3>
+                        <p>The ASUS ROG Zephyrus G14 is a top-of-the-line gaming laptop that's perfect for serious
+                            gamers. It boasts an
+                            AMD Ryzen 9 processor, an NVIDIA GeForce RTX 3080 graphics card, and a lightning-fast
+                            display.</p>
+
+                        <h3>3. HP Spectre x360</h3>
+                        <p>The HP Spectre x360 is a versatile 2-in-1 laptop that's perfect for students and
+                            professionals. It features a
+                            beautiful touchscreen display, a long battery life, and plenty of storage space.</p>
+
+                        <h3>4. Lenovo ThinkPad X1 Carbon</h3>
+                        <p>The Lenovo ThinkPad X1 Carbon is a rugged and reliable laptop that's perfect for business
+                            users. It features a
+                            durable carbon-fiber chassis, a fast processor, and a stunning display.</p>
+
+                        <h3>5. MacBook Air</h3>
+                        <p>The MacBook Air is a sleek and stylish laptop that's perfect for Apple fans. It features a
+                            stunning Retina
+                            display, a long battery life, and plenty of storage space.</p>
+
+                        <h3>6. Acer Predator Triton 500</h3>
+                        <p>The Acer Predator Triton 500 is a powerful gaming laptop that's perfect for gamers on a
+                            budget. It features an
+                            NVIDIA GeForce RTX 3070 graphics card, a fast processor, and a stunning display.</p>
+
+                        <h3>7. Microsoft Surface Pro 7</h3>
+                        <p>The Microsoft Surface Pro 7 is a versatile 2-in-1 laptop that's perfect for students and
+                            professionals. It
+                            features a beautiful touchscreen display, a long battery life, and plenty of storage space.
+                        </p>
+
+                        <h3>8. Razer Blade 15</h3>
+                        <p>The Razer Blade 15 is a powerful gaming laptop that's perfect for serious gamers. It boasts
+                            an NVIDIA GeForce
+                            RTX 3080 graphics card, a fast processor, and a lightning-fast display.</p>
+
+                        <h3>9. ASUS ZenBook 13 UX325</h3>
+                        <p>The ASUS ZenBook 13 UX325 is a sleek and stylish laptop that's perfect for professionals on
+                            the go. It features
+                            a stunning 13-inch display, a fast processor, and plenty of storage space.</p>
+
+                        <h3>10. HP Envy x360</h3>
+                        <p>The HP Envy x360 is a versatile 2-in-1 laptop that's perfect for students and professionals.
+                            It features a
+                            beautiful touchscreen display, a long battery life, and plenty of storage space.</p>
+
+                    </div><!-- /.blog-post -->
+
+                    <nav class="blog-pagination">
+                        <a class="btn btn-outline-primary" href="#">Older</a>
+                        <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
+                    </nav>
+
+                </div><!-- /.blog-main -->
+
+                <aside class="col-md-4 blog-sidebar">
+                    <div class="p-3 mb-3 bg-light rounded">
+                        <h4 class="font-italic">About</h4>
+                        <p class="mb-0"> At PCMART, <em>we offer a wide range of
+                                computer products, including desktops, laptops, peripherals, and accessories</em> from
+                            top brands
+                            like Dell, HP, Lenovo, Asus, Acer, and more. We also offer a variety of software solutions,
+                            including operating systems, productivity software, and security software to keep your
+                            computer safe and secure. Our team is made up of knowledgeable and experienced professionals
+                            who are always ready to help you find the right product for your needs.</p>
+                    </div>
+
+                    <div class="p-3">
+                        <h4 class="font-italic">Archives</h4>
+                        <ol class="list-unstyled mb-0">
+                            <li><a href="#">March 2014</a></li>
+                            <li><a href="#">February 2014</a></li>
+                            <li><a href="#">January 2014</a></li>
+                            <li><a href="#">December 2013</a></li>
+                            <li><a href="#">November 2013</a></li>
+                            <li><a href="#">October 2013</a></li>
+                            <li><a href="#">September 2013</a></li>
+                            <li><a href="#">August 2013</a></li>
+                            <li><a href="#">July 2013</a></li>
+                            <li><a href="#">June 2013</a></li>
+                            <li><a href="#">May 2013</a></li>
+                            <li><a href="#">April 2013</a></li>
+                        </ol>
+                    </div>
+
+                    <div class="p-3">
+                        <h4 class="font-italic">Elsewhere</h4>
+                        <ol class="list-unstyled">
+                            <li><a href="#">GitHub</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Facebook</a></li>
+                        </ol>
+                    </div>
+                </aside><!-- /.blog-sidebar -->
+
+            </div><!-- /.row -->
+
+        </main><!-- /.container -->
+
+        <footer class="blog-footer" style="display: flex; justify-content: center; align-items: center; flex-direction: column; height: 123px;
+        margin-top: 15px;">
+            <p>Blog Page of <a href="https://getbootstrap.com/">Technology and gadget</a> by <a
+                    href="https://twitter.com/mdo">PCMart</a>.</p>
+            <p>
+                <a href="#">Back to top</a>
+            </p>
+        </footer>
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+        <script src="../../assets/js/vendor/popper.min.js"></script>
+        <script src="../../dist/js/bootstrap.min.js"></script>
+        <script src="../../assets/js/vendor/holder.min.js"></script>
+        <script>
+            Holder.addTheme('thumb', {
+                bg: '#55595c',
+                fg: '#eceeef',
+                text: 'Thumbnail'
+            });
+        </script>
+
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="200" height="250" viewBox="0 0 200 250"
+            preserveAspectRatio="none"
+            style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;">
+            <defs>
+                <style type="text/css"></style>
+            </defs><text x="0" y="13"
+                style="font-weight:bold;font-size:13pt;font-family:Arial, Helvetica, Open Sans, sans-serif">Thumbnail</text>
+        </svg>
+    </body>
+
+
+    <script src="script.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
