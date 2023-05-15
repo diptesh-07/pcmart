@@ -747,6 +747,10 @@ footer .copyright {
     width: 100%;
   }
 
+  #product_desc {
+    display: flex;
+    width: 350px;
+  }
 
 }
 
